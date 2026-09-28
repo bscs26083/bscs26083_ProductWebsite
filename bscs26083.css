@@ -1,0 +1,349 @@
+.nav {
+    position: relative; 
+    z-index: 1000;
+    border: 1px solid #ccc;
+    background-color: #b781ed;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: right;
+    width: 100vw;
+}
+
+.nav-button {
+    background-color: #dabcf8;
+    color: #72007a;
+    border: 1px solid #72007a;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+.home-container {
+    position: relative;
+    display: inline-block;
+}
+
+.home-image {
+    width: 100vw;
+    height: auto;
+}
+
+.home-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(242, 201, 245);
+    font-size: 140px;
+    font-weight: Black;
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.image-2-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-2 {
+    width: 100vw;
+    height: auto;
+}
+
+.image-2-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(70, 3, 75);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    text-shadow: 16px 16px 16px rgba(228, 189, 241, 0.5);
+}
+
+.image-2-button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px;
+    color: rgb(242, 201, 245);
+}
+
+.home-footer {
+    background-color: #ceb2eb;
+    color: #72007a;
+    text-align: left;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    width: 100vw;
+}
+
+/* ============================= */
+/* PRODUCTS PAGE */
+/* ============================= */
+
+.products-heading {
+    background-color: #ead8f8;
+    text-align: center;
+    padding: 35px;
+    color: #72007a;
+    font-family: "Brush Script MT", cursive;
+}
+
+.products-heading h1 {
+    font-size: 55px;
+    margin: 5px;
+}
+
+.products-heading p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #4d1455;
+}
+
+
+/* Individual Product Box */
+
+.product-box {
+    width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+
+    background-color: #f3e7fa;
+
+    border: 2px solid #c99be8;
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+    box-sizing: border-box;
+
+    box-shadow: 0px 5px 15px rgba(114, 0, 122, 0.15);
+}
+
+
+/* Product Image */
+
+.product-box img {
+    width: 260px;
+    height: 260px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+    border: 3px solid #d2a8ed;
+}
+
+
+/* Product Information */
+
+.product-info {
+    font-family: Arial, sans-serif;
+    color: #421047;
+}
+
+.product-info h2 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 35px;
+    color: #72007a;
+    margin-top: 0;
+}
+
+.product-info p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.price {
+    color: #8c2294;
+    font-size: 22px !important;
+    font-weight: bold;
+}
+
+
+/* Buttons */
+
+.buy-button {
+    background-color: #72007a;
+    color: white;
+
+    border: none;
+    border-radius: 12px;
+
+    padding: 12px 25px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #b04ac0;
+    transform: scale(1.05);
+}
+
+.buy-button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+    transform: none;
+}
+
+
+/* ============================= */
+/* CONTACT PAGE */
+/* ============================= */
+
+.contact-container {
+    width: 80%;
+    margin: 50px auto;
+
+    background-color: #f1e2f8;
+
+    border: 2px solid #c99be8;
+    border-radius: 20px;
+
+    padding: 40px;
+
+    text-align: center;
+
+    box-shadow: 0px 6px 18px rgba(114, 0, 122, 0.2);
+
+    box-sizing: border-box;
+}
+
+
+.contact-container h1 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 60px;
+    color: #72007a;
+    margin-bottom: 10px;
+}
+
+
+.contact-intro {
+    font-family: Arial, sans-serif;
+    color: #4d1455;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+
+/* Contact Information */
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.contact-item {
+    background-color: #e0c3f2;
+
+    width: 250px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    border: 1px solid #bd8bdc;
+}
+
+
+.contact-item h2 {
+    color: #72007a;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+.contact-item p {
+    color: #421047;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Social Media */
+
+.social-section {
+    margin-top: 45px;
+}
+
+
+.social-section h2 {
+    font-family: "Brush Script MT", cursive;
+    color: #72007a;
+    font-size: 35px;
+}
+
+
+.social-button {
+    display: inline-block;
+
+    background-color: #dabcf8;
+    color: #72007a;
+
+    border: 1px solid #72007a;
+    border-radius: 12px;
+
+    padding: 12px 25px;
+    margin: 8px;
+
+    text-decoration: none;
+
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.social-button:hover {
+    background-color: #72007a;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+/* ============================= */
+/* RESPONSIVE DESIGN */
+/* ============================= */
+
+@media (max-width: 700px) {
+
+    .product-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product-box img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .contact-container {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .contact-container h1 {
+        font-size: 45px;
+    }
+
+}
